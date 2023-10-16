@@ -141,22 +141,27 @@ i{
     align-items: center;
 }
 .logobutton1 :hover{
-   color: pink;
-   border: 1px solid pink;
+  
+   color: white;
+   background: linear-gradient(#515bd4, #8134AF, #DD2A7B,#FEDA77, #F58529 );
+   border: 2px solid white;
 }
 .logobutton2 :hover{
-    color: blue;
-   border: 1px solid blue;
+    color: white;
+    background-color: blue;
+   border: 2px solid white;
 
  }
  .logobutton3 :hover{
-    color: lightblue;
-   border: 1px solid lightblue;
+    color: #1C96E8;
+    background-color: white;
+   border: 2px solid #1C96E8;
 
  }
  .logobutton4 :hover{
-    color: green;
-   border: 1px solid green;
+    color: white;
+    background-color: #00C200;
+   border: 2px solid white;
 
  }
  .two h3:hover{
