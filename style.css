@@ -91,14 +91,7 @@ span{
     display: flex;
     gap: 35px;
 }
-button{
-    border: none;
-    color: white;
-    background-color: #0974C7;
-    width: 65px;
-    height: 30px;
-    border-radius: 10px;
-}
+
 .content{
     top: 19%;
     width: 100%;
@@ -129,3 +122,53 @@ button{
 .content p{
     color: rgba(0, 0, 0, 0.656);
 }
+.social{
+    display: flex;
+    gap: 19px;
+    bottom: 50px;
+    left: 50px;
+    position: absolute;
+}
+i{
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.logobutton1 :hover{
+   color: pink;
+   border: 1px solid pink;
+}
+.logobutton2 :hover{
+    color: blue;
+   border: 1px solid blue;
+
+ }
+ .logobutton3 :hover{
+    color: lightblue;
+   border: 1px solid lightblue;
+
+ }
+ .logobutton4 :hover{
+    color: green;
+   border: 1px solid green;
+
+ }
+ .two h3:hover{
+    
+        border: none;
+        color: white;
+        background:linear-gradient(to right,#0974C7,#023e6c ) ;
+        transition: .5s;
+    
+ }
+.two h3{
+    padding: 4px 9px;
+    border-radius: 10px;
+   
+ }
